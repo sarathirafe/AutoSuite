@@ -68,6 +68,5 @@ public class Page1 {
 			
 			doc.close();
 			System.out.println(text);
->>>>>>> 4ad4da0 Feature1 commit
 		}
 	}
