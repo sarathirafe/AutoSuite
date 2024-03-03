@@ -67,6 +67,10 @@ public class Page1 {
 
 			doc.close();
 			System.out.println(text);
+<<<<<<< Upstream, based on master
 			// First
+=======
+			// Feature1
+>>>>>>> ca2bfd3 Test
 		}
 	}
