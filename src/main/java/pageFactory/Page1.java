@@ -68,7 +68,9 @@ public class Page1 {
 			doc.close();
 			System.out.println(text);
 
+// For merging
 //Merge updated - final
+
 
 		}
 	}
