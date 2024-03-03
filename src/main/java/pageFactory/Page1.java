@@ -31,6 +31,6 @@ public class Page1 {
 		}
 		
 		public void result(){
-			System.out.println("******Thread name*********" + Thread.currentThread().getId());
+			System.out.println("Test for Rebase");
 		}
 	}
