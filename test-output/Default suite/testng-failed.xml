@@ -5,9 +5,9 @@
     <classes>
       <class name="com.UI_Test.ExecuteTest">
         <methods>
+          <include name="searchTest1"/>
           <include name="setDriver"/>
           <include name="removeDriver"/>
-          <include name="searchTest2"/>
         </methods>
       </class> <!-- com.UI_Test.ExecuteTest -->
     </classes>
