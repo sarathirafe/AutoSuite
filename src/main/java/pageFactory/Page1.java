@@ -67,7 +67,9 @@ public class Page1 {
 
 			doc.close();
 			System.out.println(text);
-// Change 2 , for merging
+
+// Change 2 , for merging updated
+
 
 		}
 	}
