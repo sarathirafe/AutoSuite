@@ -67,8 +67,6 @@ public class Page1 {
 
 			doc.close();
 			System.out.println(text);
-            /////// Change 2
-			// Change 3
-			// Master change
+            //2
 		}
 	}
