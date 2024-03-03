@@ -67,11 +67,7 @@ public class Page1 {
 
 			doc.close();
 			System.out.println(text);
-<<<<<<< Upstream, based on master
 //Final
-=======
 
-            //1
->>>>>>> f4eccc3 1
 		}
 	}
