@@ -67,6 +67,6 @@ public class Page1 {
 
 			doc.close();
 			System.out.println(text);
-			//Partha updating feature
+			// Feature2
 		}
 	}
