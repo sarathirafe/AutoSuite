@@ -67,6 +67,7 @@ public class Page1 {
 
 			doc.close();
 			System.out.println(text);
-            //2
+3
+
 		}
 	}
