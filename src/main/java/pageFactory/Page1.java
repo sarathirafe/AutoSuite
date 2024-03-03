@@ -64,8 +64,7 @@ public class Page1 {
 				System.out.println( "count  " + counter + "    " + x ); //Reading line by line
 				counter++;
 			}
-		
-			
+
 			doc.close();
 			System.out.println(text);
 		}
