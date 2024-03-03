@@ -1,5 +1,7 @@
 package com.UI_Test;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.PageFactory;
@@ -11,14 +13,14 @@ import pageFactory.Page2;
 
 public class ExecuteTest extends DriverFactory {
 		
-	//@Test(invocationCount = 1,threadPoolSize = 4)
-	public void searchTest1() throws InterruptedException {
+	@Test(invocationCount = 1,threadPoolSize = 4)
+	public void searchTest1() throws InterruptedException, IOException {
 		Page1 p = PageFactory.initElements(getDriver(), Page1.class);
 		p.LogIn_Action("partha");
-		p.result();
+		p.PDFTextRead();
 	}	
 
-	@Test
+	//@Test
 	public void searchTest2() throws InterruptedException {		
 		Page2 p = new Page2(getDriver());
 		p.LogIn_Action("Raje");
